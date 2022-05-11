@@ -63,6 +63,24 @@ ul li:hover {
     color: rgb(5, 3, 3);
 }
 
+.fa-bars-staggered {
+    padding: 10px 15px;
+    color: orange;
+    
+}
+
+.checkbtn {
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
 .main-container {
     width:100%;
     
@@ -70,7 +88,7 @@ ul li:hover {
 
 .box {
     display: grid;
-    grid-template-columns:1fr 1fr ;
+    grid-template-columns:1fr 1fr;
     padding: 3rem 10rem;
     margin-inline: auto;
     gap: 1rem;
@@ -338,4 +356,63 @@ ul li:hover {
 
 
 }
+
+
+@media only screen and (max-width: 600px) {
+
+    header {
+        display: relative;
+    }
+
+
+    .checkbtn{
+        display: grid;
+        cursor: pointer;
+        grid-column: 3;
+        padding-right: 10px;
+    }
+
+    ul{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column: 1/4;
+        text-align: center;
+        
+    }
+
+    .log-container{
+        display: none;
+    }
+
+    .logo{
+        text-decoration: none;
+    }
+
+    .tab-nav {
+        display: none;
+    }
+
+    .checkbtn{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+
+    .box {
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+        padding: 3rem 0;
+
+    }
+
+    .firstdescription1{
+        font-size: 60px;
+    }
+
+
+
+}
+
 
