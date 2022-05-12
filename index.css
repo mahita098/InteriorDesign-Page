@@ -494,6 +494,51 @@ ul li:hover {
 
     }
 
+    .input {     
+        width: 300px;   
+        display: flex;
+        justify-content: center;
+        height: 90px;
+        gap: 20px;
+        padding: 10px;
+    
+    }
+    
+    .emailss {
+        padding: 10px 10px;
+        border-style: none;
+    
+    }
+
+    .emailbox {
+        padding: 10px;
+        background-color:;
+        
+    }
+
+    .subscribe {
+        font-size: 40px;
+
+        font-weight: 500;
+    
+    }
+    
+    .dailylife {
+        font-size: 20px;
+        padding: 10px;
+ 
+        font-weight: 400;
+
+    }
+
+    .subtwo {
+        padding: 30px 10px ;
+        font-weight: 600;
+        font-size: 11px ;
+    }
+
+
+
 
 
 }
